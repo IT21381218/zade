@@ -1,0 +1,215 @@
+/* General Styling */
+.about {
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  /* Top Section */
+  .about-top {
+    background-image: url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734069508/eehanee/20231125_160014_kvafbl.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 7rem;
+    font-weight: bold;
+  }
+  
+  /* Bottom Section */
+  .about-bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgba(165, 0, 0, 0) 100%);
+  }
+  
+  /* Left Side */
+  .about-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff83;
+  }
+  
+  .about-left img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Right Side */
+  .about-right {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .about-right h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .about-right h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-family: main;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+  }
+  
+  .about-right h3 span {
+    margin-left: 10px;
+    color: #004085;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  
+  .about-right p {
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: lable;
+  }
+  
+  /* Download CV Button */
+  .download-cv-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: #000000;
+    background-color: #00000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: lable;
+  }
+  
+  /* Hover Effect */
+  .download-cv-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Focus Effect (for accessibility) */
+  .download-cv-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 1200px) {
+    .about-top {
+      font-size: 5rem; /* Reduce font size */
+    }
+  
+    .about-left img {
+      width: 50%; /* Reduce image size */
+    }
+  
+    .about-right h1 {
+      font-size: 2rem; /* Adjust header font size */
+    }
+  
+    .about-right h3 {
+      font-size: 1.4rem; /* Adjust subheader font size */
+    }
+  
+    .about-right p {
+      font-size: 1rem; /* Adjust paragraph font size */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-top {
+      font-size: 4rem; /* Further reduce font size */
+    }
+  
+    .about-left {
+      flex: 1 1 100%; /* Stack the sections vertically */
+      justify-content: center;
+    }
+  
+    .about-left img {
+      width: 70%; /* Increase image size */
+    }
+  
+    .about-right {
+      flex: 1 1 100%; /* Make the right section full width */
+      padding: 20px; /* Reduce padding */
+    }
+  
+    .about-right h1 {
+      font-size: 1.8rem; /* Adjust header font size */
+    }
+  
+    .about-right h3 {
+      font-size: 1.2rem; /* Adjust subheader font size */
+    }
+  
+    .about-right p {
+      font-size: 1rem; /* Adjust paragraph font size */
+    }
+  
+    .download-cv-button {
+      padding: 10px 20px; /* Adjust button padding */
+      font-size: 1rem; /* Adjust button font size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-top {
+      font-size: 3rem; /* Adjust for very small screens */
+    }
+  
+    .about-left img {
+      width: 80%; /* Increase image size for small screens */
+    }
+  
+    .about-right {
+      padding: 10px; /* Reduce padding */
+    }
+  
+    .about-right h1 {
+      font-size: 1.5rem; /* Adjust header font size */
+    }
+  
+    .about-right h3 {
+      font-size: 1rem; /* Adjust subheader font size */
+    }
+  
+    .about-right p {
+      font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+  
+    .download-cv-button {
+      padding: 8px 16px; /* Adjust button padding */
+      font-size: 0.9rem; /* Adjust button font size */
+    }
+  }
+  

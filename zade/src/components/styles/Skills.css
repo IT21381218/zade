@@ -1,0 +1,208 @@
+.skills {
+    width: 100%;
+    text-align: center;
+    background: #ffffffb9; /* White background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000; /* Black text */
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .skill-box {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .skills h1 {
+    font-size: 7rem; /* Large font size for emphasis */
+    margin: 1rem 0 2rem; /* Reduced top margin */
+    color: #000; /* Black header */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-bottom: 2px solid #000; /* Black underline */
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  
+  .skills-list-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .skills-list {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 1rem;
+    scrollbar-width: thin; /* Custom scrollbar width */
+    scrollbar-color: #000 transparent; /* Black scrollbar */
+  }
+  
+  .skills-list::-webkit-scrollbar {
+    height: 8px; /* Height of horizontal scrollbar */
+  }
+  
+  .skills-list::-webkit-scrollbar-thumb {
+    background: #000; /* Black scrollbar thumb */
+    border-radius: 4px;
+  }
+  
+  .skills-list::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Edge fade effect */
+  .skills-list-container::before,
+  .skills-list-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  .skills-list-container::before {
+    left: 0;
+    background: linear-gradient(to right, #ffffff00, transparent);
+  }
+  
+  .skills-list-container::after {
+    right: 0;
+    background: linear-gradient(to left, #ffffff00, transparent);
+  }
+  
+  .skill-item {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5; /* Light grey background for contrast */
+    border: 2px solid #000; /* Black border */
+    border-radius: 15px;
+    padding: 2rem;
+    min-width: 150px;
+    height: 200px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .skill-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .skill-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #000; /* Black icons */
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .skill-item:hover .skill-icon {
+    color: #555; /* Slightly darker icon on hover */
+    transform: rotate(10deg);
+  }
+  
+  .skill-item span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000; /* Black text */
+    text-transform: capitalize;
+    font-family: lable;
+  }
+  
+  /* Base Styles for .skills remain unchanged */
+  
+  /* Responsive Design for max-width: 1200px */
+  @media (max-width: 1200px) {
+    .skills h1 {
+      font-size: 6rem; /* Adjust font size */
+      margin: 1rem 0; /* Reduce margins */
+    }
+  
+    .skills-list {
+      gap: 1.5rem; /* Reduce gap between skill items */
+      padding: 1rem; /* Adjust padding */
+    }
+  
+    .skill-item {
+      min-width: 130px; /* Slightly smaller skill items */
+      height: 180px;
+      padding: 1.5rem;
+    }
+  
+    .skill-icon {
+      font-size: 3.5rem; /* Adjust icon size */
+    }
+  
+    .skill-item span {
+      font-size: 1.3rem; /* Adjust text size */
+    }
+  }
+  
+  /* Responsive Design for max-width: 768px */
+  @media (max-width: 768px) {
+    .skills h1 {
+      font-size: 4.5rem; /* Smaller header size */
+    }
+  
+    .skills-list {
+      gap: 1rem; /* Reduce gap between skill items */
+      padding: 1rem; /* Adjust padding */
+    }
+  
+    .skill-item {
+      min-width: 120px; /* Smaller skill items */
+      height: 150px;
+      padding: 1rem;
+    }
+  
+    .skill-icon {
+      font-size: 3rem; /* Smaller icon size */
+    }
+  
+    .skill-item span {
+      font-size: 1.2rem; /* Adjust text size */
+    }
+  }
+  
+  /* Responsive Design for max-width: 480px */
+  @media (max-width: 480px) {
+    .skills {
+      padding: 0rem; /* Add padding to avoid sticking to edges */
+    }
+  
+    .skills h1 {
+      font-size: 3rem; /* Further reduce header size */
+      margin: 0.5rem 0; /* Adjust margins */
+    }
+  
+    .skills-list {
+      gap: 0.5rem; /* Reduce gap further */
+      padding: 1rem; /* Adjust padding */
+    }
+  
+    .skill-item {
+      min-width: 100px; /* Compact skill items */
+      height: 120px;
+      padding: 0.5rem;
+    }
+  
+    .skill-icon {
+      font-size: 2.5rem; /* Smaller icon size */
+    }
+  
+    .skill-item span {
+      font-size: 1rem; /* Adjust text size */
+    }
+  }
+  

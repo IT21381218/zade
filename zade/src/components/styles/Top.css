@@ -1,0 +1,48 @@
+/* Top.css */
+
+.top {
+    text-align: center;
+    color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* This will push the content to the bottom */
+    align-items: center;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.767) 10%, /* White for the top 10% */
+      rgba(0, 0, 0, 0.623) 90% /* Gray for the bottom 90% */
+    );
+    padding-bottom: 0px; /* Optional: Adds a bit of space between the text and the bottom edge */
+  }
+  
+  .top h1 {
+    font-size: 20rem;
+    margin: 0; /* Removes any default margin for precise positioning */
+  }
+  
+  /* Responsive Styling */
+  
+  @media (max-width: 1200px) {
+    .top h1 {
+      font-size: 12rem; /* Reduce font size for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .top {
+      justify-content: center; /* Center content vertically for smaller screens */
+    }
+  
+    .top h1 {
+      font-size: 10rem; /* Further reduce font size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .top h1 {
+      font-size: 5.5rem; /* Smaller font size for mobile screens */
+    }
+  }
+  
