@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaJava, FaNodeJs, FaGithub, FaFigma } from 'react-icons/fa';
-import { SiMongodb, SiPostman } from "react-icons/si";
-import { IoLogoFirebase } from "react-icons/io5";
+import { GiThink, GiStrong ,GiKingJuMask, GiTeamIdea ,GiCyberEye } from "react-icons/gi";
+import { MdSpatialTracking } from "react-icons/md";
+import { FaChessKing } from "react-icons/fa";
+import { PiBrainFill } from "react-icons/pi";
+
 import './styles/Skills.css';
 
 function Skills() {
@@ -35,52 +37,36 @@ function Skills() {
         <div className="skills-list-container">
           <div className="skills-list" ref={scrollRef}>
             <div className="skill-item">
-              <FaReact className="skill-icon" />
-              <span>React.js</span>
+              <GiThink className="skill-icon" />
+              <span>Strategic Thinking</span>
             </div>
             <div className="skill-item">
-              <FaJsSquare className="skill-icon" />
-              <span>JavaScript</span>
+              <GiStrong className="skill-icon" />
+              <span>Combat Skills</span>
             </div>
             <div className="skill-item">
-              <FaCss3Alt className="skill-icon" />
-              <span>CSS</span>
+              <MdSpatialTracking className="skill-icon" />
+              <span>Surveillance</span>
             </div>
             <div className="skill-item">
-              <FaHtml5 className="skill-icon" />
-              <span>HTML</span>
+              <FaChessKing className="skill-icon" />
+              <span>Leadership</span>
             </div>
             <div className="skill-item">
-              <FaPython className="skill-icon" />
-              <span>Python</span>
+              <GiKingJuMask className="skill-icon" />
+              <span>Charisma</span>
             </div>
             <div className="skill-item">
-              <FaJava className="skill-icon" />
-              <span>Java</span>
+              <GiTeamIdea  className="skill-icon" />
+              <span>Problem Solving</span>
             </div>
             <div className="skill-item">
-              <FaNodeJs className="skill-icon" />
-              <span>Node.js</span>
+              <GiCyberEye  className="skill-icon" />
+              <span>Tactical Planning</span>
             </div>
             <div className="skill-item">
-              <FaGithub className="skill-icon" />
-              <span>Github</span>
-            </div>
-            <div className="skill-item">
-              <SiMongodb className="skill-icon" />
-              <span>MongoDB</span>
-            </div>
-            <div className="skill-item">
-              <IoLogoFirebase className="skill-icon" />
-              <span>Firebase</span>
-            </div>
-            <div className="skill-item">
-              <FaFigma className="skill-icon" />
-              <span>Figma</span>
-            </div>
-            <div className="skill-item">
-              <SiPostman className="skill-icon" />
-              <span>Postman</span>
+              <PiBrainFill className="skill-icon" />
+              <span>Intuition</span>
             </div>
           </div>
         </div>

@@ -15,20 +15,20 @@ function About() {
         {/* Left Side */}
         <div className="about-left">
           <img 
-            src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734070521/eehanee/Untitled-1_qk1pxt.png" 
+            src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734460084/zade/808261537711239964_tdx9fo.png" 
             alt="About Me" 
           />
         </div>
 
         {/* Right Side */}
         <div className="about-right">
-          <h1>Hi, I'm Zade Hettiarachchi</h1>
+          <h1>Hi, I'm Zade Meadows</h1>
           <h3>
             And I'm a {""}
             <span>
               <Typewriter
                 options={{
-                  strings: ['Quality Assurance Tester', 'Customer Service Officer', 'Project Manager' ,'UI/UX Designer' , 'Business Analyst'],
+                  strings: ['Protector', 'Antagonist', 'Antihero' ,'Manipulator' , 'Lover'],
                   autoStart: true,
                   loop: true,
                   delay: 75,
@@ -38,10 +38,11 @@ function About() {
             </span>
           </h3>
           <p>
-            I'm an undergraduate at the Sri Lanka Institute of Information Technology (SLIIT) who is
-            enthusiastic, self-motivated, reliable, responsible, and hardworking with a solid
-            foundation in programming languages. I am seeking a challenging role to apply my
-            technical expertise and contribute to the innovation and efficiency of the organization.
+          A man shaped by darkness and driven by desire, I present a cold and calculating exterior, but beneath it lies 
+          a complex mind unafraid to confront life’s shadows. My world is defined by control, obsession, and loyalty—qualities 
+          that guide my every action. I thrive in the tension between dominance and vulnerability, always deliberate in my choices.
+           Though my methods may be unconventional, my devotion to those I care for is unwavering. In a world where trust is rare, 
+           I stand firm in my convictions, ready to face whatever comes my way.
           </p>
           <a href="/V.E. Hettiarachchi_Resume.pdf" download className="download-cv-button">Download CV</a>
         </div>
