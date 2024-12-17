@@ -116,21 +116,21 @@ const ParallaxImages = () => {
   return (
     <div className="parallax-images">
       <ParallaxImg
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375799/eehanee/807899038176362627_nlbqk0.png"
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734463939/zade/808278120579776760_myyvy5.png"
         alt="Space launch"
         start={0}
         end={200}
         className="parallax-img img-left"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png"
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734464358/zade/808279907286205610_oayzce.png"
         alt="Spacecraft"
         start={200}
         end={-250}
         className="parallax-img img-center"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734376057/eehanee/807900687443833199_pcefbw.png"
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734464194/zade/808279198616588441_wjvzdf.png"
         alt="Satellite"
         start={-200}
         end={200}
@@ -168,21 +168,21 @@ const ParallaxImg = ({ className, alt, src, start, end }) => {
 const ProjectsDetails = () => {
   const projects = [
     {
-      title: "Project One",
-      description: "A detailed overview of the first project.",
-      image: "https://images.unsplash.com/photo-1484600899469-230e8d1d59c0?q=80",
+      title: "Surveillance of Adeline",
+      description: "I’ve been watching her for some time now. At first, it was just to ensure she was safe, but soon, I needed to know more—her routines, her habits, the way she thinks. Every detail matters. I stay in the shadows, observing, always a step ahead, making sure no one can touch her.",
+      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734462872/zade/808273159892713961_vq2q06.png",
       link: "https://example.com/project-one",
     },
     {
-      title: "Project Two",
-      description: "Highlights the second project's features.",
-      image: "https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=80",
+      title: "Protecting My Identity",
+      description: "I’ve spent years building a wall around who I am. People think they know me, but they don’t. They see the cold exterior, the silence, the control—but that's not the whole picture. I don’t let anyone close enough to see the real me, and I never will.",
+      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734463306/zade/808274353893645171_vrx47x.png",
       link: "https://example.com/project-two",
     },
     {
-      title: "Project Three",
-      description: "Details about the technologies and outcomes.",
-      image: "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?q=80",
+      title: "Forming Alliances in the Underworld",
+      description: "In my world, power is everything, and trust is a rare commodity. I don’t work alone—I’ve built alliances with those who thrive in the shadows. These connections aren’t about friendship; they’re about leverage and results.",
+      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734463605/zade/808276484197203227_znorep.png",
       link: "https://example.com/project-three",
     },
   ];
