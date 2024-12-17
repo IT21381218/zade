@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: lable;
+  src: url(../public/Sansation_Regular.ttf);
+}
+
+@font-face {
+  font-family: main;
+  src: url(../public/ElaineKinandhita.ttf);
+}
+
+h1{
+  font-family: main;
+  letter-spacing: 0.05em;
+}
