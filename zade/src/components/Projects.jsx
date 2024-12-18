@@ -114,7 +114,7 @@ const CenterImage = () => {
           backgroundSize,
           opacity,
           backgroundImage:
-            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734549625/zade/808495471694795085_2_2_mmdvme.png)",
+            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734555042/zade/output_o5treq.png)",
         }}
       />
       {/* Mobile Center Image */}
@@ -200,7 +200,7 @@ const ProjectsDetails = () => {
       link: "https://example.com/project-two",
     },
     {
-      title: "Forming Alliances in the Underworld",
+      title: "Forging Underworld Alliances",
       description: "In my world, power is everything, and trust is a rare commodity. I don’t work alone—I’ve built alliances with those who thrive in the shadows. These connections aren’t about friendship; they’re about leverage and results.",
       image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734463605/zade/808276484197203227_znorep.png",
       link: "https://example.com/project-three",
