@@ -3,11 +3,11 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal overflow */
-  
+  background: #000000;
 }
 
 .projects-container {
-  background-color: #00000086;
+  background-color: #000000a6;
 }
 
 

@@ -1,15 +1,13 @@
 .skills {
     width: 100%;
     text-align: center;
-    background: #ffffffb9; /* White background */
+    background: #ffffff59; /* White background */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #000; /* Black text */
-    font-family: 'Poppins', sans-serif;
-  
   }
   
   .skill-box {
@@ -24,7 +22,7 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: bold;
-    border-bottom: 2px solid #000; /* Black underline */
+/* Black underline */
     display: inline-block;
     padding-bottom: 0.5rem;
   }
