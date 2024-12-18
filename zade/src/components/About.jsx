@@ -44,7 +44,6 @@ function About() {
            Though my methods may be unconventional, my devotion to those I care for is unwavering. In a world where trust is rare, 
            I stand firm in my convictions, ready to face whatever comes my way.
           </p>
-          <a href="/V.E. Hettiarachchi_Resume.pdf" download className="download-cv-button">Download CV</a>
         </div>
       </div>
     </div>
