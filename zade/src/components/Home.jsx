@@ -52,7 +52,7 @@ function Home() {
 
       <video autoPlay loop muted className="background-video">
         <source 
-          src="https://res.cloudinary.com/dwcxwpn7q/video/upload/v1734452525/zade/videoplayback_2__1_vt3dx1.mp4" 
+          src="https://res.cloudinary.com/dwcxwpn7q/video/upload/v1734544185/zade/x_c6e9br.mp4" 
           type="video/mp4" 
         />
         Your browser does not support the video tag.

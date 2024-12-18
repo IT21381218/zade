@@ -6,7 +6,7 @@ const Loading = () => {
     <div className="loading-screen">
       <CutoutTextLoader
         height="100vh"
-        imgUrl="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734116119/eehanee/806783965882073664_foamno.png" // Replace with your background image URL
+        imgUrl="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734466121/zade/808277497809506964_kikpql.png" // Replace with your background image URL
       />
     </div>
   );

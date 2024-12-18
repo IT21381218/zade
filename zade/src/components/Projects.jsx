@@ -13,6 +13,13 @@ const Projects = () => {
 
   return (
     <div className="projects-container">
+        <video autoPlay loop muted className="background-video">
+        <source 
+          src="https://res.cloudinary.com/dwcxwpn7q/video/upload/v1734544185/zade/x_c6e9br.mp4" 
+          type="video/mp4" 
+        />
+        Your browser does not support the video tag.
+      </video>
       <CustomCursor />
       <HomeNavigation />
       <Hero />
@@ -78,7 +85,6 @@ const Hero = () => {
     </div>
   );
 };
-
 const CenterImage = () => {
   const { scrollY } = useScroll();
 
@@ -99,16 +105,30 @@ const CenterImage = () => {
   );
 
   return (
-    <motion.div
-      className="center-image"
-      style={{
-        clipPath,
-        backgroundSize,
-        opacity,
-        backgroundImage:
-          "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734371660/pexels-eberhardgross-1670187_nnn199.jpg)",
-      }}
-    />
+    <>
+      {/* Desktop Center Image */}
+      <motion.div
+        className="center-image center-image-desktop"
+        style={{
+          clipPath,
+          backgroundSize,
+          opacity,
+          backgroundImage:
+            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734549625/zade/808495471694795085_2_2_mmdvme.png)",
+        }}
+      />
+      {/* Mobile Center Image */}
+      <motion.div
+        className="center-image center-image-mobile"
+        style={{
+          clipPath,
+          backgroundSize,
+          opacity,
+          backgroundImage:
+            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734549813/zade/808495471694795085_2_vlyvbz.png)", // Replace with mobile-specific image
+        }}
+      />
+    </>
   );
 };
 
