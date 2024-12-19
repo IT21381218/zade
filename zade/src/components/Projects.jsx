@@ -125,7 +125,7 @@ const CenterImage = () => {
           backgroundSize,
           opacity,
           backgroundImage:
-            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734549813/zade/808495471694795085_2_vlyvbz.png)", // Replace with mobile-specific image
+            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734596184/zade/x_pwhs8v.png)", // Replace with mobile-specific image
         }}
       />
     </>

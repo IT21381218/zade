@@ -111,9 +111,9 @@
   }
   
   .skill-item span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    color: #000; /* Black text */
+    color: #252525; /* Black text */
     text-transform: capitalize;
     font-family: lable;
   }

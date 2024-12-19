@@ -15,7 +15,7 @@ function About() {
         {/* Left Side */}
         <div className="about-left">
           <img 
-            src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734460084/zade/808261537711239964_tdx9fo.png" 
+            src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734596269/zade/808846310393378886_c6lgbz.png" 
             alt="About Me" 
           />
         </div>
