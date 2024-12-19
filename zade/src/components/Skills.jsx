@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { GiThink, GiStrong ,GiKingJuMask, GiTeamIdea ,GiCyberEye } from "react-icons/gi";
+import { GiThink, GiStrong, GiKingJuMask, GiTeamIdea, GiCyberEye } from "react-icons/gi";
 import { MdSpatialTracking } from "react-icons/md";
 import { FaChessKing } from "react-icons/fa";
 import { PiBrainFill } from "react-icons/pi";
@@ -30,44 +30,33 @@ function Skills() {
     };
   }, []);
 
+  const skills = [
+    { icon: <GiThink className="skill-icon" />, name: "Strategic Thinking", bgImage: "url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734599550/zade/808860509555242285_g9cxqw.png')" },
+    { icon: <GiStrong className="skill-icon" />, name: "Combat Skills", bgImage: "url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734599472/zade/808859998454125796_nrxxlv.png')" },
+    { icon: <MdSpatialTracking className="skill-icon" />, name: "Surveillance", bgImage: "url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734599600/zade/808860814497924841_yw1ujt.png')" },
+    { icon: <FaChessKing className="skill-icon" />, name: "Leadership", bgImage: "url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734600385/zade/808864061493255600_a1isyi.png')" },
+    { icon: <GiKingJuMask className="skill-icon" />, name: "Charisma", bgImage: "url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734599874/zade/808861789455517944_uboxep.png')" },
+    { icon: <GiTeamIdea className="skill-icon" />, name: "Problem Solving", bgImage: "url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734599928/zade/808862184592515677_vyptoq.png')" },
+    { icon: <GiCyberEye className="skill-icon" />, name: "Tactical Planning", bgImage: "url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734599993/zade/808862433700623049_mtxjod.png')" },
+    { icon: <PiBrainFill className="skill-icon" />, name: "Intuition", bgImage: "url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734600119/zade/808862562549644376_w7h4md.png')" },
+  ];
+
   return (
     <div className="skills">
       <div className="skill-box">
         <h1>My Skills</h1>
         <div className="skills-list-container">
           <div className="skills-list" ref={scrollRef}>
-            <div className="skill-item">
-              <GiThink className="skill-icon" />
-              <span>Strategic Thinking</span>
-            </div>
-            <div className="skill-item">
-              <GiStrong className="skill-icon" />
-              <span>Combat Skills</span>
-            </div>
-            <div className="skill-item">
-              <MdSpatialTracking className="skill-icon" />
-              <span>Surveillance</span>
-            </div>
-            <div className="skill-item">
-              <FaChessKing className="skill-icon" />
-              <span>Leadership</span>
-            </div>
-            <div className="skill-item">
-              <GiKingJuMask className="skill-icon" />
-              <span>Charisma</span>
-            </div>
-            <div className="skill-item">
-              <GiTeamIdea  className="skill-icon" />
-              <span>Problem Solving</span>
-            </div>
-            <div className="skill-item">
-              <GiCyberEye  className="skill-icon" />
-              <span>Tactical Planning</span>
-            </div>
-            <div className="skill-item">
-              <PiBrainFill className="skill-icon" />
-              <span>Intuition</span>
-            </div>
+            {skills.map((skill, index) => (
+              <div
+                className="skill-item"
+                key={index}
+                style={{ backgroundImage: skill.bgImage, backgroundSize: 'cover', backgroundPosition: 'center' }}
+              >
+                {skill.icon}
+                <span>{skill.name}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

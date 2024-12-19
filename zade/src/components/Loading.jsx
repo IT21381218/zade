@@ -6,19 +6,28 @@ const Loading = () => {
     <div className="loading-screen">
       <CutoutTextLoader
         height="100vh"
-        imgUrl="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734466121/zade/808277497809506964_kikpql.png" // Replace with your background image URL
+        imgUrl="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734601339/zade/808867832474604375_urxq7d.png" // Desktop image URL
+        mobileImgUrl="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734603222/zade/808870692922608083_gqsynv.png" // Mobile image URL
       />
     </div>
   );
 };
 
-const CutoutTextLoader = ({ height, imgUrl }) => {
+const CutoutTextLoader = ({ height, imgUrl, mobileImgUrl }) => {
   return (
     <div className="relative" style={{ height }}>
       <div
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 desktop-img"
         style={{
           backgroundImage: `url(${imgUrl})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      />
+      <div
+        className="absolute inset-0 z-0 mobile-img"
+        style={{
+          backgroundImage: `url(${mobileImgUrl})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
