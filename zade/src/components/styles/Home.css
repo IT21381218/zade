@@ -1,73 +1,72 @@
 /* Home.css */
 
 .home {
-    position: relative;
-    font-family: 'Arial', sans-serif;
-    overflow: hidden;
-    min-height: 100vh;
-  }
-  
-  .background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-    transition: height 0.3s ease;
-  }
-  
-  /* Section styles */
-  section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh; /* Ensure each section takes up full screen */
-    padding: 0;
-    color: white;
-    position: relative;
-    z-index: 1;
-    opacity: 0;  /* Initially hide the section */
-    transform: translateX(100%);  /* Start from the right */
-    transition: opacity 1s ease, transform 1s ease;
-  }
-  
-  section.slide-in {
-    opacity: 1;
-    transform: translateX(0);  /* Move to its original position */
-  }
-  
-  section:not(.slide-in) {
-    opacity: 0;
-    transform: translateX(100%);  /* Slide out to the right when not active */
-  }
-  
-  /* Custom Scrollbar Styles */
-::-webkit-scrollbar {
-  width: 0px; /* Width of the scrollbar */
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+  min-height: 100vh;
 }
-/* 
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  transition: height 0.3s ease;
+}
+
+/* Section styles */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure each section takes up full screen */
+  padding: 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+  opacity: 0;  /* Initially hide the section */
+  transform: translateX(100%);  /* Start from the right */
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+section.slide-in {
+  opacity: 1;
+  transform: translateX(0);  /* Move to its original position */
+}
+
+section:not(.slide-in) {
+  opacity: 0;
+  transform: translateX(100%);  /* Slide out to the right when not active */
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+width: 5px; /* Width of the scrollbar */
+}
+
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #6a11cb, #2575fc); 
-  border-radius: 6px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+background: #ebebeb; 
+border-radius: 6px; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(45deg, #2575fc, #6a11cb); 
+background:  #9c9c9c; 
 }
 
 ::-webkit-scrollbar-track {
-  background: #ebebeb; 
+background: #000000; 
 }
 
 
 @media (max-width: 768px) {
-  ::-webkit-scrollbar {
-    display: none; 
-  }
-} */
+::-webkit-scrollbar {
+  display: none; 
+}
+}
 
 
 
