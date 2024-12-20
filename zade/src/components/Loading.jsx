@@ -34,7 +34,7 @@ const CutoutTextLoader = ({ height, imgUrl, mobileImgUrl }) => {
       />
       <div
         className="absolute inset-0 animate-pulse z-10"
-        style={{ backgroundColor: '#ffffff' }} // Optional, can be adjusted or removed
+        style={{ backgroundColor: '#ebebeb' }} // Optional, can be adjusted or removed
       />
       <span
         className="font-black absolute inset-0 z-20 text-center bg-clip-text text-transparent pointer-events-none"

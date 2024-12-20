@@ -5,7 +5,6 @@
     left: 0;
     width: 100%;
     background-color: transparent;
-    color: #ecf0f1;
     z-index: 1000;
   }
   
@@ -37,11 +36,11 @@
   }
   
   .nav-list li:hover {
-    color: #272727;
+    color: #474747;
   }
   
   .nav-list li:active {
-    color: #000000;
+    color: #444444;
   }
   
   /* Responsive Styling */

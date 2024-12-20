@@ -1,7 +1,7 @@
 .skills {
     width: 100%;
     text-align: center;
-    background: #ffffff59; /* White background */
+    background: #ebebeb; /* White background */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -89,8 +89,8 @@
     border: 2px solid #000; /* Black border */
     border-radius: 15px;
     padding: 2rem;
-    min-width: 150px;
-    height: 200px;
+    min-width: 350px;
+    height: 350px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0);
     transition: transform 0.3s, box-shadow 0.3s;
   }
@@ -137,7 +137,8 @@
   
     .skill-item {
       min-width: 130px; /* Slightly smaller skill items */
-      height: 180px;
+      height: 400px;
+      width: 400px;
       padding: 1.5rem;
     }
   
@@ -163,7 +164,8 @@
   
     .skill-item {
       min-width: 120px; /* Smaller skill items */
-      height: 150px;
+      height: 400px;
+      width: 400px;
       padding: 1rem;
     }
   
@@ -194,7 +196,8 @@
   
     .skill-item {
       min-width: 100px; /* Compact skill items */
-      height: 120px;
+      height: 200px;
+      width: 200px;
       padding: 0.5rem;
     }
   
