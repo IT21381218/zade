@@ -88,7 +88,7 @@
     }
 
     .follow-me a {
-        font-size: 7rem; /* Smaller font size */
+        font-size: 5rem; /* Smaller font size */
     }
 
     .follow-me li {
@@ -114,8 +114,26 @@
 /* For max-width 480px (Mobile devices) */
 @media (max-width: 480px) {
     .follow-me {
-        padding-left: 0px; /* Further reduce left padding */
-        align-items: center; /* Center the items on smaller screens */
+        padding-left: 30px; /* Further reduce left padding */
+    }
+
+    .follow-me a {
+        font-size: 3rem; /* Even smaller font size */
+    }
+
+    .follow-me li {
+        margin: 10px; /* Adjust margin */
+    }
+
+    .follow-me ul {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+    }
+}
+
+@media (max-height: 480px) {
+    .follow-me {
+        padding-left: 30px; /* Further reduce left padding */
     }
 
     .follow-me a {
