@@ -7,7 +7,7 @@ const Loading = () => {
       <CutoutTextLoader
         height="100vh"
         imgUrl="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734601339/zade/808867832474604375_urxq7d.png" // Desktop image URL
-        mobileImgUrl="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734603222/zade/808870692922608083_gqsynv.png" // Mobile image URL
+        mobileImgUrl="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734719102/zade/809370631410859332_1_og36zu.png" // Mobile image URL
       />
     </div>
   );
