@@ -154,7 +154,7 @@
   /* Responsive Design for max-width: 768px */
   @media (max-width: 768px) {
     .skills h1 {
-      font-size: 4.5rem; /* Smaller header size */
+      font-size: 6rem; /* Smaller header size */
     }
   
     .skills-list {
